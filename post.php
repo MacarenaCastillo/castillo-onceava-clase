@@ -20,6 +20,7 @@ $id = $_GET['url'];
 <h5>Categoría: <a href="archive.php?url=<?php print($inspiracion[$id]["category"])?>"><?php print($inspiracion[$id]["category"])?></a></h5>
 <img src="<?php print($inspiracion[$id]["image"])?>" class="img-responsive">
 <p><?php print($inspiracion[$id]["description"])?></p>
+ <p><a href="post.php?url=<?php print($inspiracion[$id]["link"]);?>">Link</a></p>
 </div><!--/col-sm-4-->
 </div><!--/row-->
 
